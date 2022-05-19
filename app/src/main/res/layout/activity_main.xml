@@ -73,18 +73,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.959" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="83dp"
-        android:layout_height="66dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357"
-        app:srcCompat="@drawable/ic_home_black_24dp"
-        tools:srcCompat="@tools:sample/avatars" />
 
     <Button
         android:id="@+id/button2"
@@ -128,7 +116,7 @@
         android:id="@+id/oquevoceprocura"
         android:layout_width="211dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="228dp"
+        android:layout_marginBottom="212dp"
         android:text="o que voce procura"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -148,4 +136,17 @@
 
         app:layout_constraintVertical_bias="0.975"
         app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="74dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322"
+        app:srcCompat="@drawable/ic_home_black_24dp"
+        tools:srcCompat="@tools:sample/avatars" />
 </android.support.constraint.ConstraintLayout>
